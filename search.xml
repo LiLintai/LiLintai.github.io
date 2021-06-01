@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>Test</title>
-      <link href="2021/06/01/test/"/>
-      <url>2021/06/01/test/</url>
+      <title>Python学习日记</title>
+      <link href="2021/06/01/python%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/"/>
+      <url>2021/06/01/python%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>规定：每晚在工位自学40分钟，21:00-21:40</p><p><strong>1.</strong> Shell是输出窗口，输出结果都在这看</p><p><strong>2.</strong> 对于数字的赋值，有两种方法a=10 b=20 c=30或者a,b,c=10,20,30</p><p><strong>3.</strong> print(“word”)表示输出引号的内容而非计算内容</p><p><strong>4.</strong> print(word)才表示计算的结果</p><p><strong>5.</strong> 在使用if判断时，if和else后面必须有冒号，表示接下来的缩进内容是依附于此指令的语句</p><p><strong>6.</strong> 单双引号均可，但是括号里出现两对引号时，要么都使用单引号，要么都使用双引号，不要一单一双</p><p><strong>7.</strong> 关于输入定义数时，最常见的代码是：</p><p> a=input(‘a=’)</p><p>if int(a)&gt;=18:</p><p>  print(‘已成年’)</p><p>else:</p><p>print(‘未成年’)</p><p><strong>或者</strong></p><p>a=int(input(a=))</p><p>if a&gt;=18:</p><p>  print(a)</p><p>else:</p><p>  print(‘未成年’)</p><p><strong>8.</strong> </p>]]></content>
       
       
       
