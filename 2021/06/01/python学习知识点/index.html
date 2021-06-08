@@ -411,14 +411,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    536
+                    1.1k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    2 Min
+                    4 Min
                 </div>
                 
 
@@ -428,7 +428,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="持续更新"><a href="#持续更新" class="headerlink" title="持续更新"></a>持续更新</h1><h2 id="1-小知识点"><a href="#1-小知识点" class="headerlink" title="1.小知识点"></a>1.小知识点</h2><p><strong>2.</strong> 对于数字的赋值，有两种方法a=10 b=20 c=30或者a,b,c=10,20,30</p>
+                <h1 id="持续更新"><a href="#持续更新" class="headerlink" title="持续更新"></a>持续更新</h1><h1 id="1-小知识点"><a href="#1-小知识点" class="headerlink" title="1.小知识点"></a>1.小知识点</h1><p><strong>2.</strong> 对于数字的赋值，有两种方法a=10 b=20 c=30或者a,b,c=10,20,30</p>
 <p><strong>5.</strong> 在使用if判断时，if和else后面必须有冒号，表示接下来的缩进内容是依附于此指令的语句</p>
 <p><strong>6.</strong> 单双引号均可，但是括号里出现两对引号时，要么都使用单引号，要么都使用双引号，不要一单一双</p>
 <p><strong>7.</strong> 关于输入定义数时，最常见的代码是：</p>
@@ -443,7 +443,12 @@
 <p>**10.**字符串</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a&#x3D;38#a被定义为整数（int）</span><br><span class="line">a&#x3D;38.0#a被定义为浮点数（float）</span><br><span class="line">a&#x3D;&quot;38&quot;#a被定义成字符串（str)类型</span><br></pre></td></tr></table></figure>
 
-<p>11.计算公式(目前需要的)</p>
+<p><strong>字符串的使用</strong></p>
+<p>注意：空格也是一个字符串，利用方括号去截取字符串，0代表第一个字符串，例如：</p>
+<p>i=hallo world </p>
+<p>print(i[0])输出结果为h</p>
+<p>print(i[5])输出结果为 （空格）</p>
+<p><strong>11.计算公式(目前需要的)</strong></p>
 <table>
 <thead>
 <tr>
@@ -496,12 +501,118 @@
 <td align="center">求a的和，a一般为range函数</td>
 </tr>
 </tbody></table>
+<p><strong>12.调用函数</strong></p>
+<p>比如pi，sin，cos的时候前面需要输入import math调用数学模块。使用pi或者sin的时候要这么写</p>
+<p>x=pi/2要这么写 math.pi/2</p>
+<p>sinx要这么写math.sin(x)</p>
+<p>sin(pi/2)要这么写math.sin(math.pi/2)(这么这么麻烦)</p>
+<p><strong>13.赋值运算符</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">+=  加法赋值</th>
+<th align="center">c+=a=等效于c=c+a</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">-=  减法赋值</td>
+<td align="center">c-=a等效于c=c-a</td>
+</tr>
+<tr>
+<td align="center">*=  乘法赋值</td>
+<td align="center">cx*=a等效于c=c*xa</td>
+</tr>
+<tr>
+<td align="center">/=  除法赋值</td>
+<td align="center">c/=a等效于c=c/a</td>
+</tr>
+</tbody></table>
+<p><strong>14.逻辑运算符</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">运算符</th>
+<th align="center">逻辑表达式</th>
+<th align="center">解释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">and</td>
+<td align="center">x and y</td>
+<td align="center">布尔”与” - 如果 x 为 False，x and y 返回 False，否则它返回 y 的计算值</td>
+</tr>
+<tr>
+<td align="center">or</td>
+<td align="center">x or y</td>
+<td align="center">布尔”或”    - 如果 x 是非 0，它返回 x 的计算值，否则它返回 y 的计算值。</td>
+</tr>
+<tr>
+<td align="center">not</td>
+<td align="center">not x</td>
+<td align="center">布尔”非” - 如果 x 为 True，返回 False 。如果 x 为 False，它返回 True。</td>
+</tr>
+</tbody></table>
+<p><strong>15.成员运算符</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">运算符</th>
+<th align="center">解释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">in</td>
+<td align="center">如果在指定的序列中找到值返回 True，否则返回 False</td>
+</tr>
+<tr>
+<td align="center">not in</td>
+<td align="center">如果在指定的序列中没有找到值返回 True，否则返回 False</td>
+</tr>
+</tbody></table>
+<p><strong>16.格式化字符串</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">符号</th>
+<th align="center">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">%c</td>
+<td align="center">格式化字符及其ASCII码</td>
+</tr>
+<tr>
+<td align="center">%s</td>
+<td align="center">格式化字符串</td>
+</tr>
+<tr>
+<td align="center">%d</td>
+<td align="center">格式化整数</td>
+</tr>
+<tr>
+<td align="center">%u</td>
+<td align="center">格式化无符号整型</td>
+</tr>
+<tr>
+<td align="center">%f</td>
+<td align="center">格式化浮点数字，可指定小数点后的精度</td>
+</tr>
+<tr>
+<td align="center">%e</td>
+<td align="center">用科学计数法格式化浮点数</td>
+</tr>
+</tbody></table>
+<p><strong>17.列表、元组、字典</strong></p>
+<p>列表List使用中括号[]，元素/元组tuple使用小括号()，他俩类似，只是list里的元素可以修改，但是tuple里的元素不可以修改。另外，元组里只有一个元素的时候，要在后面加逗号，例如tup=(‘chinese’,)</p>
+<h1 id="2-语法"><a href="#2-语法" class="headerlink" title="2.语法"></a>2.语法</h1><h2 id="1-条件语句"><a href="#1-条件语句" class="headerlink" title="1.条件语句"></a>1.条件语句</h2><p>判断语句，非常easy，用简单的if +else即可完成</p>
 <h2 id="2-循环语句"><a href="#2-循环语句" class="headerlink" title="2.循环语句"></a>2.循环语句</h2><p>   让计算机做重复的事情</p>
-<p>（1）while循环：不预设重复的次数，判断某一事先设定好的条件，如果满足条件，则进入循环，每执行一次结束后，重新判断。具体事例为<strong>practice</strong>里题目2</p>
-<p>（2）for 循环，知道预先循环的次数</p>
+<h3 id="while循环："><a href="#while循环：" class="headerlink" title="while循环："></a>while循环：</h3><p>   不预设重复的次数，判断某一事先设定好的条件，如果满足条件，则进入循环，每执行一次结束后，重新判断。</p>
+<p>例如while a&lt;1: 表示a&lt;1时在循环里计算，否则跳出循环</p>
+<p><strong>（1）break使用方法</strong>：结束本次循环</p>
+<p><strong>（2）continue使用方法</strong>：跳出本次循环</p>
+<h3 id="for-循环"><a href="#for-循环" class="headerlink" title="for 循环"></a>for 循环</h3><p>​    知道预先循环的次数</p>
 <h2 id="3-特定函数"><a href="#3-特定函数" class="headerlink" title="3.特定函数"></a>3.特定函数</h2><p>1.随机函数 random ；import random</p>
-<p>2.</p>
-<h2 id="4-自定义函数"><a href="#4-自定义函数" class="headerlink" title="4.自定义函数"></a>4.自定义函数</h2><p>自定义函数以def开头，加上函数名称</p>
+<p>2.自定义函数 def function():   不需要使用时，可在后面加入pass跳过</p>
 
             </div>
             <hr/>
