@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Practice, 李林泰的学习网站">
+    <meta name="keywords" content="CFD计算模型, 李林泰的学习网站">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Practice | 李林泰的学习网站</title>
+    <title>CFD计算模型 | 李林泰的学习网站</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -264,12 +264,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Practice</h1>
+                    <h1 class="description center-align post-title">CFD计算模型</h1>
                 </div>
             </div>
         </div>
@@ -386,8 +386,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/python%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/">
-                                <span class="chip bg-color">python学习日记</span>
+                            <a href="/tags/CFD%E5%AD%A6%E4%B9%A0/">
+                                <span class="chip bg-color">CFD学习</span>
                             </a>
                         
                     </div>
@@ -402,7 +402,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2021-06-01
+                    2021-06-19
                 </div>
                 
 
@@ -411,14 +411,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    621
+                    205
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>Read Times:&nbsp;&nbsp;
-                    3 Min
+                    1 Min
                 </div>
                 
 
@@ -428,31 +428,25 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="题目1（基本输入）"><a href="#题目1（基本输入）" class="headerlink" title="题目1（基本输入）"></a>题目1（基本输入）</h3><p>编写程序分别设置变量a,b，显示出设置的值，并交换a，b的值并输出。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a,b&#x3D;1,2</span><br><span class="line">print(a,b)</span><br><span class="line">a,b&#x3D;b,a</span><br><span class="line">print(a,b)</span><br></pre></td></tr></table></figure>
-
-<h2 id="题目2（循环）"><a href="#题目2（循环）" class="headerlink" title="题目2（循环）"></a>题目2（循环）</h2><p>模拟扔骰子，扔到6结束（while循环）</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">import random  #输入随机函数</span><br><span class="line">x&#x3D;random.randint(1,6)</span><br><span class="line">print(x)</span><br><span class="line">while x !&#x3D;6:</span><br><span class="line">    x&#x3D;random.randint(1,6)</span><br><span class="line">    print(x)</span><br></pre></td></tr></table></figure>
-
-<h2 id="题目3-while循环解读"><a href="#题目3-while循环解读" class="headerlink" title="题目3 while循环解读"></a>题目3 while循环解读</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">a&#x3D;1 #初始赋值a&#x3D;1</span><br><span class="line">b&#x3D;10 #初始赋值b&#x3D;10</span><br><span class="line">while abs(a&#x2F;b)&gt;0.001:   #判断语句：当a&#x2F;b的绝对值大于0.001时，继续循环，否则跳出循环</span><br><span class="line">    print (a)   #输出语句</span><br><span class="line">    a -&#x3D;0.001   #a&#x3D;a-0.001</span><br><span class="line">print(a&#x2F;b)    #输出</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="题目4：continue和break对比"><a href="#题目4：continue和break对比" class="headerlink" title="题目4：continue和break对比"></a>题目4：continue和break对比</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#break:结束循环</span><br><span class="line">for letter in  &#39;python&#39;:</span><br><span class="line">    if letter&#x3D;&#x3D;&#39;h&#39;:</span><br><span class="line">        break</span><br><span class="line">    print(letter)</span><br><span class="line">#结果为：p y t</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#continue：跳过循环</span><br><span class="line">for letter in &#39;python&#39;:</span><br><span class="line">    if letter&#x3D;&#x3D;&#39;h&#39;:</span><br><span class="line">        continue</span><br><span class="line">    print(letter)</span><br><span class="line">#结果为：p y t o n</span><br></pre></td></tr></table></figure>
-
-<h2 id="题目5：for和while的嵌套语句"><a href="#题目5：for和while的嵌套语句" class="headerlink" title="题目5：for和while的嵌套语句"></a>题目5：for和while的嵌套语句</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">#while</span><br><span class="line">i&#x3D;2</span><br><span class="line">while i&lt;100:</span><br><span class="line">    j&#x3D;2</span><br><span class="line">    while j&lt;&#x3D;(i&#x2F;j):</span><br><span class="line">        if not(i%j):</span><br><span class="line">            break</span><br><span class="line">        j&#x3D;j+1</span><br><span class="line">    if j&gt;(i&#x2F;j):</span><br><span class="line">        print(i,&#39;为质数&#39;)</span><br><span class="line">    i+&#x3D;1</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#for</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="题目6：一般函数的使用"><a href="#题目6：一般函数的使用" class="headerlink" title="题目6：一般函数的使用"></a>题目6：一般函数的使用</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">import math</span><br><span class="line">x&#x3D;math.pi&#x2F;2</span><br><span class="line">print(math.sin(x))</span><br><span class="line">print(math.sin(math.pi&#x2F;2))</span><br><span class="line">print(math.tan(math.pi&#x2F;3))</span><br><span class="line">print(math.cos(1))</span><br><span class="line"></span><br><span class="line">print(math.fabs(-1))</span><br><span class="line">print(abs(-1))#和上面的等价</span><br><span class="line"></span><br><span class="line">y&#x3D;(1,2,3,4,5)</span><br><span class="line">print(max(y))</span><br><span class="line">z&#x3D;range(5)#代表从0-4</span><br><span class="line">print(max(z))</span><br><span class="line">print(min(z))</span><br></pre></td></tr></table></figure>
-
-<h2 id="题目7："><a href="#题目7：" class="headerlink" title="题目7："></a>题目7：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">#例1</span><br><span class="line">for i in range(10,20):</span><br><span class="line">    for j in range(2,i):</span><br><span class="line">        if i%j&#x3D;&#x3D;0:</span><br><span class="line">            k&#x3D;i&#x2F;j</span><br><span class="line">            print(&#39;%d&#x3D;%d*%d&#39;%(i,j,k)) #需要输出多个字符串的时候</span><br><span class="line">            break</span><br><span class="line">    else:</span><br><span class="line">            print(i,&#39;是一个质数&#39;)</span><br><span class="line"></span><br><span class="line">#例2</span><br><span class="line">print(&#39;My name is %s and my age is %d&#39;%(&#39;LLT&#39;,22)) #就会用‘LLT’和21分别代替 %s和%d</span><br></pre></td></tr></table></figure>
-
-<h2 id="题目8："><a href="#题目8：" class="headerlink" title="题目8："></a>题目8：</h2><p>打印出所有的”水仙花数”，所谓”水仙花数”是指一个三位数，其各位数字立方和等于该数本身。例如：153是一个”水仙花数”，因为153=1的三次方＋5的三次方＋3的三次方。</p>
-<p><strong>程序分析：</strong>利用for循环控制100-999个数，每个数分解出个位，十位，百位。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">import math</span><br><span class="line">for n in range(100,999):</span><br><span class="line">   s&#x3D;str(n) #将数n变为字符串，以便选取其中的数字</span><br><span class="line">   if int(s[0])**3+int(s[1])**3+int(s[2])**3 &#x3D;&#x3D;n:#此时的s已经是字符串了，int(s[0])是为了将其变为整型</span><br><span class="line">       print (n)</span><br></pre></td></tr></table></figure>
-
-
+                <h1 id="1-湍流模型总览"><a href="#1-湍流模型总览" class="headerlink" title="1.湍流模型总览"></a>1.湍流模型总览</h1><p>湍流是在中高雷诺数下观察到的三维非定常随机运动，具体包括：</p>
+<p>（1）S-A模型</p>
+<p>（2）k-e模型，又包括：</p>
+<p>​       （a）Standard k-e model 标准k-e模型</p>
+<p>​       （b） Renormalization-group (RNG) - model    RNG k-e模型</p>
+<p>​       （c） Realizable k-e model  可视化k-e模型</p>
+<p>（3）k-w模型，又包括：</p>
+<p>​        （a）Standard k-w model 标准k-w模型</p>
+<p>​       （b）Baseline (BSL) k-w model</p>
+<p>​       （c） Shear-stress transport (SST) k-w model  剪切应力传输SST模型</p>
+<p>​       （d）Generalized k-w (GEKO) model</p>
+<p>（4）v2f模型</p>
+<p>（5）Transition k-kl-w model</p>
+<p>（6）Transition SST model</p>
+<p>（7）Reynolds stress models (RSM) 雷诺应力模型</p>
+<p>（8）Large eddy simulation (LES) model 大涡模拟</p>
+<p>（9）Reynolds Averaged Navier-Stokes (RANS) Turbulence Models 雷诺平均N-S湍流模型</p>
+<p>选取其中几个较为常用的模型做介绍</p>
+<h1 id="2-RANS模型"><a href="#2-RANS模型" class="headerlink" title="2.RANS模型"></a>2.RANS模型</h1><h2 id="1-适用范围"><a href="#1-适用范围" class="headerlink" title="1.适用范围"></a>1.适用范围</h2>
             </div>
             <hr/>
 
@@ -477,7 +471,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2021/06/01/practice/">http://example.com/2021/06/01/practice/</a>
+                    <a href="http://example.com/2021/06/19/CFD%E8%AE%A1%E7%AE%97%E6%A8%A1%E5%9E%8B/">http://example.com/2021/06/19/CFD%E8%AE%A1%E7%AE%97%E6%A8%A1%E5%9E%8B/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -515,8 +509,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/python%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/">
-                                    <span class="chip bg-color">python学习日记</span>
+                                <a href="/tags/CFD%E5%AD%A6%E4%B9%A0/">
+                                    <span class="chip bg-color">CFD学习</span>
                                 </a>
                             
                         </div>
@@ -821,9 +815,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
                 <a href="/2021/06/19/CFD%E8%AE%A1%E7%AE%97%E6%A8%A1%E5%9E%8B/">
                     <div class="card-image">
@@ -845,9 +840,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-06-19
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-06-19
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -856,6 +851,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -874,21 +870,22 @@
                 Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/06/01/python%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9/">
+                <a href="/2021/06/01/practice/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="小知识点">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="Practice">
                         
-                        <span class="card-title">小知识点</span>
+                        <span class="card-title">Practice</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            持续更新1.小知识点2. 对于数字的赋值，有两种方法a=10 b=20 c=30或者a,b,c=10,20,30
-5. 在使用if判断时，if和else后面必须有冒号，表示接下来的缩进内容是依附于此指令的语句
-6. 单双引号均可，但是括号里
+                            题目1（基本输入）编写程序分别设置变量a,b，显示出设置的值，并交换a，b的值并输出。
+1234a,b&#x3D;1,2print(a,b)a,b&#x3D;b,aprint(a,b)
+
+题目2（循环）模拟扔骰子，扔到6结束（while循环
                         
                     </div>
                     <div class="publish-info">
